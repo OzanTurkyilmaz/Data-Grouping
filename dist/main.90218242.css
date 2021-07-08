@@ -1,0 +1,54 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.groups {
+  height: 200px;
+  width: 250px;
+  border: 1px solid black;
+}
+
+.home {
+  background-color: #ffc0cb;
+}
+@media only screen and (min-width: 768px) {
+  .home {
+    background-color: #800080;
+  }
+}
+
+.main {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.groups {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+/*# sourceMappingURL=/main.90218242.css.map */
