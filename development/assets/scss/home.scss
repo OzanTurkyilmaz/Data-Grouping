@@ -1,0 +1,33 @@
+.home {
+  background-color: $home-bgcolor;
+
+	// NOTES: set CSS variables on assets/scss/globals/_variables.scss
+	// background-color: var(--home-color);
+
+  @include mq(tablet, min) {
+    background-color: #800080;
+  }
+
+}
+
+.main {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.groups {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+h1 {
+  font-size: 24px;
+  margin: 0;
+}
